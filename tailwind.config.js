@@ -20,6 +20,20 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      colors: {
+        primary: {
+          50: '#e2f7fb',
+          100: '#c0edf7',
+          200: '#aee8f4',
+          300: '#1aa5c2',
+          400: '#1792ac',
+          500: '#147f95',
+          600: '#116c7f',
+          700: '#0e5969',
+          800: '#0b4652',
+          900: '#08333c',
+        },
+      },
       borderRadius: {
         '4xl': '2rem',
       },
@@ -32,5 +46,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }

@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 
@@ -61,29 +60,24 @@ function MobileNavigation() {
                 className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
               >
                 <li>
-                  <Link href="#features">
+                  <Link href="/">
                     <a className="block w-full" onClick={() => close()}>
-                      Features
+                      Home
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#testimonials">
+                  <Link href="/terms">
                     <a className="block w-full" onClick={() => close()}>
-                      Testimonials
+                      Terms of Service
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#pricing">
+                  <Link href="/privacy">
                     <a className="block w-full" onClick={() => close()}>
-                      Pricing
+                      Privacy Policy
                     </a>
-                  </Link>
-                </li>
-                <li className="border-t border-slate-300/40 pt-4">
-                  <Link href="/login">
-                    <a className="block w-full">Sign in</a>
                   </Link>
                 </li>
               </Popover.Panel>
@@ -102,49 +96,36 @@ export function Header() {
         <nav className="relative z-50 text-sm">
           <ul className="flex items-center">
             <li>
-              <Link href="#">
+              <Link href="/">
                 <a>
                   <span className="sr-only">Home</span>
-                  <Logo className="h-10 w-auto" />
+                  <Logo className="h-16 w-auto" />
                 </a>
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
-              <Link href="#features">
+              <Link href="/">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Features
+                  Home
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#testimonials">
+              <Link href="/terms">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Testimonials
+                  Terms of Service
                 </a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#pricing">
+              <Link href="/privacy">
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Pricing
+                  Privacy Policy
                 </a>
               </Link>
             </li>
-            <li className="ml-auto hidden md:block">
-              <Link href="/login">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                  Sign in
-                </a>
-              </Link>
-            </li>
-            <li className="ml-auto md:ml-8">
-              <ButtonLink href="/register" color="blue">
-                <span>
-                  Get started<span className="hidden lg:inline"> today</span>
-                </span>
-              </ButtonLink>
-            </li>
-            <li className="ml-5 -mr-1 md:hidden">
+
+            <li className="ml-auto -mr-1 md:hidden">
               <MobileNavigation />
             </li>
           </ul>

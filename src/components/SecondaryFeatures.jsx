@@ -221,7 +221,7 @@ export function SecondaryFeatures() {
             id="secondary-features-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Simplify everyday business tasks.
+            How it works
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Because you’d probably be a little confused if we suggested you
