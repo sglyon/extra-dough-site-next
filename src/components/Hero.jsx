@@ -20,7 +20,9 @@ export function Hero() {
           cakes, muffins, doughnuts, pies and more!
         </p>
         <div className="mt-10 flex justify-center space-x-6">
-          <ButtonLink href="#">Get the App</ButtonLink>
+          <ButtonLink href="https://apps.apple.com/US/app/id1613915418?mt=8">
+            Get the App
+          </ButtonLink>
         </div>
       </Container>
     </>

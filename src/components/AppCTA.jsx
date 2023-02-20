@@ -26,8 +26,12 @@ export function AppCTA() {
             <h2 className="font-display text-2xl uppercase tracking-tight text-slate-800 md:text-3xl lg:text-4xl">
               Order deliveries directly through our app
             </h2>
-            <ButtonLink variant="outline" href="/register" className="mt-10">
-              Coming Soon!
+            <ButtonLink
+              variant="outline"
+              href="https://apps.apple.com/US/app/id1613915418?mt=8"
+              className="mt-10"
+            >
+              Download today!
             </ButtonLink>
           </div>
         </div>
