@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Extra Dough</title>
+        <title>Extra Dough: Discover Local Fresh Baked Goods Near You</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Craving homemade treats? Find a delightful array of local fresh baked goods near you with Extra Dough. Connect, explore, and indulge in the best your community has to offer!"
         />
       </Head>
       <Header />
