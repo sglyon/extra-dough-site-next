@@ -25,8 +25,8 @@ const DeleteAccountPage = () => {
                 <h2>Navigate to Profile Screen</h2>
                 <p>
                   Using the bottom tab bar in the Extra Dough app, select the
-                  'Profile' or middle icon. It should look similar to the below
-                  screenshot.
+                  &apos;Profile&apos; or middle icon. It should look similar to
+                  the below screenshot.
                 </p>
                 <Image
                   src={imageDelete1}
@@ -36,9 +36,9 @@ const DeleteAccountPage = () => {
               <li>
                 <h2>Press Delete Account</h2>
                 <p>
-                  On the Profile Screen, press the 'Delete Account' button. It
-                  should raise an alert asking you to confirm your decision as
-                  indicated in the below screenshot.
+                  On the Profile Screen, press the &apos;Delete Account&apos;
+                  button. It should raise an alert asking you to confirm your
+                  decision as indicated in the below screenshot.
                 </p>
                 <Image
                   src={imageDelete2}
@@ -51,10 +51,10 @@ const DeleteAccountPage = () => {
                   After confirming the deletion of your account, you should see
                   a screen similar to the below screenshot. You may choose to
                   cancel the delete request if submitted in error by pressing
-                  the 'Cancel delete request' button. Otherwise, the delete
-                  request will remain in a pending state until an admin approves
-                  the request. Once approved, your account and data will be
-                  deleted and you will be logged out of the app.
+                  the &apos;Cancel delete request&apos; button. Otherwise, the
+                  delete request will remain in a pending state until an admin
+                  approves the request. Once approved, your account and data
+                  will be deleted and you will be logged out of the app.
                 </p>
                 <Image
                   src={imageDelete3}
