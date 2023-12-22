@@ -1,9 +1,8 @@
-import Link from 'next/link'
-
 import { Container } from '@/components/Container'
-import iconInstagram from '@/images/logos/instagram.svg'
-import iconFacebook from '@/images/logos/facebook.svg'
 import Image from 'next/image'
+import Link from 'next/link'
+import iconFacebook from '@/images/logos/facebook.svg'
+import iconInstagram from '@/images/logos/instagram.svg'
 
 const IG = () => {
   return (
@@ -62,6 +61,9 @@ const FooterDesktop = () => {
             <li className="underline hover:text-primary-300">
               <Link href="/privacy">Terms and Conditions</Link>
             </li>
+            <li className="underline hover:text-primary-300">
+              <Link href="/delete-account">Delete Account</Link>
+            </li>
           </ul>
         </nav>
       </div>
@@ -96,6 +98,9 @@ const FooterMobile = () => {
             </li>
             <li className="underline hover:text-primary-300">
               <Link href="/privacy">Terms and Conditions</Link>
+            </li>
+            <li className="underline hover:text-primary-300">
+              <Link href="/delete-account">Delete Account</Link>
             </li>
           </ul>
         </nav>
