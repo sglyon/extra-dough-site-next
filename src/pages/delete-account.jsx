@@ -65,6 +65,7 @@ const DeleteAccountPage = () => {
           </div>
         </Container>
       </main>
+      <Footer />
     </>
   )
 }
