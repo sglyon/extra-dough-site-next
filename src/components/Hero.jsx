@@ -1,7 +1,6 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
 import { Donut } from '@/components/Donut'
+import Image from 'next/image'
 import QRCode from 'react-qr-code'
 
 export function Hero() {
@@ -46,7 +45,7 @@ export function Hero() {
               </div>
             </div>
             <div className="mx-auto flex flex-col">
-              <a href="https://apps.apple.com/US/app/id1613915418?mt=8">
+              <a href="https://play.google.com/store/apps/details?id=io.extradough.extradougheater&hl=en-US&ah=DO36JT8dcHmExhehpPbGzBJwYNY">
                 <Image
                   src="/google-play-badge.png"
                   alt="Download on Google Play store"
@@ -56,7 +55,7 @@ export function Hero() {
               </a>
               <div className="self-center">
                 <QRCode
-                  value="https://apps.apple.com/US/app/id1613915418?mt=8"
+                  value="https://play.google.com/store/apps/details?id=io.extradough.extradougheater&hl=en-US&ah=DO36JT8dcHmExhehpPbGzBJwYNY"
                   className="h-28 w-28"
                 />
               </div>
